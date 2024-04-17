@@ -38,16 +38,16 @@ Y seleccionar la fuente de preferencia.
 
 ### Paso 3: Configuración del Terminal
 
-En la terminal de PowerShell presionar 'Ctrl + Shift + ,' para abrir el archivo 'settings.json'. En el apartado 'schemes' del archivo, buscar pinkTerminal y copiar todo lo que esté dentro de las llaves {}. Luego, pegar en el archivo que se abrió al presionar Ctrl + Shift + ,.
+En la terminal de PowerShell presionar **'Ctrl + Shift + ,'** para abrir el archivo 'settings.json'. En el apartado **'schemes'** del archivo, buscar pinkTerminal y copiar todo lo que esté dentro de las llaves **{}**. Luego, pegar en el archivo que se abrió al presionar **'Ctrl + Shift + ,'** .
 
-Después buscar el apartado font y colocar el nombre de la fuente, en mi caso es MesloLGM Nerd Font.
+Después buscar el apartado font y colocar el nombre de la fuente, en mi caso es **'MesloLGM Nerd Font'**.
 
 ### Paso 4: Configurar Neofetch
 
 Busca la carpeta de Neofetch, esta estará en:
 Disco Local C://, Usuario, nombreUsuario, neofetch
 
-Copia los archivos dentro de la carpeta Neofetch de este repositorio, tanto config.conf como mandalorian-symbol-ascii-art. Pegarlos dentro de la carpeta Neofetch de su máquina pidiendo sobrescribir y aceptar.
+Copia los archivos dentro de la carpeta Neofetch de este repositorio, tanto **'config.con'** como **'mandalorian-symbol-ascii-art'**. Pegarlos dentro de la carpeta Neofetch de su máquina pidiendo sobrescribir y aceptar.
 
 ### Paso 5: Configurar PowerShell Profile
 
@@ -57,7 +57,7 @@ Ejecutar el comando:
 notepad $PROFILE
 ```
 
-Pegar lo del archivo Microsoft.PowerShell_profile.ps1. Para guardar los cambios ejecutar el comando:
+Pegar lo del archivo **'Microsoft.PowerShell_profile.ps1'**. Para guardar los cambios ejecutar el comando:
 
 ```powershell
 notepad $PROFILE
