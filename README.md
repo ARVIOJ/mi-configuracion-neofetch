@@ -24,10 +24,11 @@ Para instalar Oh My Posh y configurar la fuente, utiliza el siguiente comando:
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
 
-Después, agrega la siguiente ruta a las variables de entorno en Path:
+Después, agrega oh my posh a las variables de entorno en Path:
 
-C:\Users\user\AppData\Local\Programs\oh-my-posh\bin
-
+```powershell
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
+```
 Para instalar la fuente con el comando:
 
 ```powershell
@@ -54,6 +55,8 @@ Copia los archivos dentro de la carpeta Neofetch de este repositorio, tanto **'c
 Ejecutar el comando:
 
 ```powershell
+New-Item -Path $PROFILE -Type File -Force
+
 notepad $PROFILE
 ```
 
