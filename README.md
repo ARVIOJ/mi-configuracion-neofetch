@@ -15,6 +15,7 @@ Abre PowerShell y ejecuta los siguientes comandos:
 ```powershell
 scoop install git
 scoop install neofetch
+```
 
 # instalar ohmyposh y fuente con el comando en la terminal de powershell:
 winget install JanDeDobbeleer.OhMyPosh -s winget
