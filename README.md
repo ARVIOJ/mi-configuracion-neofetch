@@ -17,35 +17,55 @@ scoop install git
 scoop install neofetch
 ```
 
-# instalar ohmyposh y fuente con el comando en la terminal de powershell:
-winget install JanDeDobbeleer.OhMyPosh -s winget
+### Paso 2: Instalar Oh My Posh y la Fuente
+Para instalar Oh My Posh y configurar la fuente, utiliza el siguiente comando:
 
-despues agregar la variables de entorno en Path:
+```powershell
+winget install JanDeDobbeleer.OhMyPosh -s winget
+```
+
+Después, agrega la siguiente ruta a las variables de entorno en Path:
+
 C:\Users\user\AppData\Local\Programs\oh-my-posh\bin
 
-para instalar la fuente con el comando:
+Para instalar la fuente con el comando:
+
+```powershell
 oh-my-posh font install
+```
 
-y selecionar la de preferencia
+Y seleccionar la fuente de preferencia.
 
-en la terminal de powershell presionar
-ctrl + shift + ,
-en el apartado schemes del archivo "settings.json" buscar "pinkTerminal" y copiar todo lo dentro de las llaves {} 
-y copiar en el archivo que se abrio al presionar ctrl + shift + ,
+### Paso 3: Configuración del Terminal
 
-depues buscar el aparatdo "font" y colocar el nombre de la fuente en mi caso es "MesloLGM Nerd Font"
+En la terminal de PowerShell presionar 'Ctrl + Shift + ,' para abrir el archivo 'settings.json'. En el apartado 'schemes' del archivo, buscar pinkTerminal y copiar todo lo que esté dentro de las llaves {}. Luego, pegar en el archivo que se abrió al presionar Ctrl + Shift + ,.
 
-depues buscar la carpeta neofetch esta estara en disco local C://, Usuario, nombreUsuario y neofetch
+Después buscar el apartado font y colocar el nombre de la fuente, en mi caso es MesloLGM Nerd Font.
 
-copiar los archivo dentro de la carpeta neofetch de este repositorio tanto config.conf como mandalorian-symbol-ascii-art
+### Paso 4: Configurar Neofetch
 
-pegarlos dentro de la carpeta neofetch de su maquina pedira sobreescribir y aceptaran
+Busca la carpeta de Neofetch, esta estará en:
+Disco Local C://, Usuario, nombreUsuario, neofetch
 
-por ultimo colar el comando:
+Copia los archivos dentro de la carpeta Neofetch de este repositorio, tanto config.conf como mandalorian-symbol-ascii-art. Pegarlos dentro de la carpeta Neofetch de su máquina pidiendo sobrescribir y aceptar.
 
+### Paso 5: Configurar PowerShell Profile
+
+Ejecutar el comando:
+
+```powershell
 notepad $PROFILE
+```
 
-pegar lo del archivo "Microsoft.PowerShell_profile.ps1"
-y por ultimo para guardar los cambios  el coamando:
+Pegar lo del archivo Microsoft.PowerShell_profile.ps1. Para guardar los cambios ejecutar el comando:
 
+```powershell
+notepad $PROFILE
+```
+
+```powershell
 . $PROFILE
+```
+
+## 🌟 ¡Listo!
+Con estos pasos, tendrás una terminal personalizada y lista para mostrar tu configuración Neofetch cada vez que inicies PowerShell.
