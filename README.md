@@ -8,7 +8,7 @@ Bienvenido al repositorio de mi configuración personalizada de Neofetch en Powe
 
 Para comenzar, sigue estos pasos para instalar las herramientas necesarias y configurar tu entorno.
 
-### Paso 1: Instalar Scoope, Git y Neofetch
+### Paso 1: Instalar Scoop, Git y Neofetch
 
 Abre PowerShell y ejecuta los siguientes comandos:
 
